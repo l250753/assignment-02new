@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoDrone | Sustainable Aerial Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo" aria-label="EcoDrone Logo">
+      <img src="assets/ecodrone-logo.svg" alt="EcoDrone logo" />
+      <h1>EcoDrone</h1>
+    </div>
+    <nav class="nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#join">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h2>Clean Skies. Smarter Drones.</h2>
+        <p>EcoDrone pioneers eco-friendly aerial technology that protects our planet.</p>
+        <a href="#join" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <article>
+        <h2>About Us</h2>
+        <p>We design drones powered by solar cells and recyclable materials, delivering sustainable logistics for the future.</p>
+      </article>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Why EcoDrone?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Solar Powered</h3>
+          <p>Operates on renewable solar energy, reducing emissions.</p>
+        </div>
+        <div class="feature-card">
+          <h3>AI Navigation</h3>
+          <p>Advanced AI ensures safe and efficient flight paths.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Recyclable Design</h3>
+          <p>Our materials are fully recyclable and environmentally safe.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="join">
+      <h2>Join the Movement</h2>
+      <form class="join-form" aria-label="Join EcoDrone Community">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" required />
+
+        <fieldset>
+          <legend>Areas of Interest</legend>
+          <label><input type="checkbox" name="interest" value="delivery"> Drone Delivery</label>
+          <label><input type="checkbox" name="interest" value="agriculture"> Agriculture</label>
+          <label><input type="checkbox" name="interest" value="research"> Research</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferred Plan</legend>
+          <label><input type="radio" name="plan" value="basic"> Basic</label>
+          <label><input type="radio" name="plan" value="premium"> Premium</label>
+        </fieldset>
+
+        <label for="region">Region</label>
+        <select id="region" name="region" required>
+          <option value="">Select...</option>
+          <option>North America</option>
+          <option>Europe</option>
+          <option>Asia</option>
+          <option>Other</option>
+        </select>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell us more..."></textarea>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 EcoDrone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
